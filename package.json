@@ -1,0 +1,44 @@
+{
+  "name": "configur",
+  "description": "Dynamic configuration powered by dotpath templates.",
+  "author": {
+    "name": "Aleksandr Tsertkov",
+    "email": "tsertkov@gmail.com"
+  },
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/tsertkov/dotpath-configur/blob/master/LICENSE-MIT"
+  },
+  "bugs": {
+    "url": "https://github.com/tsertkov/dotpath-configur/issues"
+  },
+  "scripts": {
+    "test": "jshint lib/ test/ package.json",
+    "jsdoc": "jsdoc --private --destination jsdoc lib/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tsertkov/dotpath-configur.git"
+  },
+  "keywords": [
+    "configur",
+    "configurator",
+    "config",
+    "configure",
+    "configuration",
+    "json",
+    "dotpath",
+    "dot-path"
+  ],
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "dotpath-resolve": "git://github.com/tsertkov/dotpath-resolve.git",
+    "dotpath-compile": "git://github.com/tsertkov/dotpath-compile.git"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.3.0-alpha9",
+    "jshint": "^2.5.5"
+  }
+}
