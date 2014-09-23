@@ -15,7 +15,7 @@
     "url": "https://github.com/tsertkov/configur/issues"
   },
   "scripts": {
-    "test": "jshint lib/ test/ package.json",
+    "test": "jshint lib/ package.json",
     "jsdoc": "jsdoc --private --destination jsdoc lib/"
   },
   "repository": {
