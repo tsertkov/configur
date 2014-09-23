@@ -34,8 +34,8 @@
   ],
   "dependencies": {
     "lodash": "^2.4.1",
-    "dotpath-resolve": "git://github.com/tsertkov/dotpath-resolve.git",
-    "dotpath-compile": "git://github.com/tsertkov/dotpath-compile.git"
+    "dotpath-resolve": "*",
+    "dotpath-compile": "*"
   },
   "devDependencies": {
     "jsdoc": "^3.3.0-alpha9",
