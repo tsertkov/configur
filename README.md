@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/tsertkov/configur.png?label=ready&title=Ready)](https://waffle.io/tsertkov/configur)
 # configur
 
 [![Build Status](https://travis-ci.org/tsertkov/configur.svg)](https://travis-ci.org/tsertkov/configur)
