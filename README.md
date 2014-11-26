@@ -1,6 +1,6 @@
 # configur
 
-[![NPM](https://nodei.co/npm/dotpath-compile.png)](https://nodei.co/npm/configur/)
+[![NPM](https://nodei.co/npm/configur.png)](https://nodei.co/npm/configur/)
 
 [![Build Status](https://travis-ci.org/tsertkov/configur.svg?branch=master)](https://travis-ci.org/tsertkov/configur)
 [![David Status](https://david-dm.org/tsertkov/configur.png)](https://david-dm.org/tsertkov/configur)
