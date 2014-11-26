@@ -1,6 +1,36 @@
 language: node_js
 node_js:
 - '0.10'
+after_success: npm run jsdoc
 notifications:
   slack:
     secure: FbpI51NFfZAnOw710SCsOm1XearvVyAa4d1gEuj2k0n6PNTsLWpVVRnnOLyHnXOWysS1zfLSK1UVOTw6m2gMmy+wzrDvV5mr7dQKRqn3YoU7twkt5m/Ed/rn2P2tLuRrC2XBbGAwB6ihZAw227tJRdbnxi9TAy1bzXAOixkPMNk=
+deploy:
+- provider: s3
+  access_key_id:
+    secure: IArWaWZjwPYV9hq3Or9JihLN07kVuv9VNX28eGxLbPrZwl4TBGF4WbICQJHPzEwJwzCveTSKrjbOHfdsXcMquec/Fvdc2EAq8C6ZX5WrgN+d9Zur5+rbFaLeC0YcvZWLzYnTsHT5/W6P7qaXMiPVnkprz4LRVtzeMQ21TlJlJqM=
+  secret_access_key:
+    secure: dZtlFKwcwyTWbPAe/mzXyZ7Rl4tcVTi13P5+FX9MjATTTlwmx4++WWskJLPGrbUP+hdtbSLkOeVYVwVI63m4EfnPKnDNywwF9MsSWeQNBUQfUM8PL3ANxL6vvg2cokG+7HMEr2tSA9O4xAWuLhgLCEaAuMf7+OBmzmKD/wv70M8=
+  bucket: tsertkov-artifacts
+  local-dir: artifacts
+  upload-dir: configur/master
+  acl: public_read
+  skip_cleanup: true
+  region: eu-central-1
+  endpoint: s3.eu-central-1.amazonaws.com
+  on:
+    branch: master
+- provider: s3
+  access_key_id:
+    secure: IArWaWZjwPYV9hq3Or9JihLN07kVuv9VNX28eGxLbPrZwl4TBGF4WbICQJHPzEwJwzCveTSKrjbOHfdsXcMquec/Fvdc2EAq8C6ZX5WrgN+d9Zur5+rbFaLeC0YcvZWLzYnTsHT5/W6P7qaXMiPVnkprz4LRVtzeMQ21TlJlJqM=
+  secret_access_key:
+    secure: dZtlFKwcwyTWbPAe/mzXyZ7Rl4tcVTi13P5+FX9MjATTTlwmx4++WWskJLPGrbUP+hdtbSLkOeVYVwVI63m4EfnPKnDNywwF9MsSWeQNBUQfUM8PL3ANxL6vvg2cokG+7HMEr2tSA9O4xAWuLhgLCEaAuMf7+OBmzmKD/wv70M8=
+  bucket: tsertkov-artifacts
+  local-dir: artifacts
+  upload-dir: configur/develop
+  acl: public_read
+  skip_cleanup: true
+  region: eu-central-1
+  endpoint: s3.eu-central-1.amazonaws.com
+  on:
+    branch: develop
