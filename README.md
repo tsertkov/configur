@@ -1,10 +1,15 @@
 # configur
 
-[![Build Status](https://travis-ci.org/tsertkov/configur.svg)](https://travis-ci.org/tsertkov/configur)
+[![NPM](https://nodei.co/npm/dotpath-compile.png)](https://nodei.co/npm/configur/)
+
+[![Build Status](https://travis-ci.org/tsertkov/configur.svg?branch=master)](https://travis-ci.org/tsertkov/configur)
 [![David Status](https://david-dm.org/tsertkov/configur.png)](https://david-dm.org/tsertkov/configur)
-[![Stories in Ready](https://badge.waffle.io/tsertkov/configur.png?label=ready&title=Ready)](https://waffle.io/tsertkov/configur)
 
 > Dynamic configuration powered by dotpath templates.
+
+## Private API
+
+Complete API Documentation including private and public methods is generated from source code by JSDoc tool and is [available here](https://s3.eu-central-1.amazonaws.com/tsertkov-artifacts/configur/master/jsdoc/index.html).
 
 ## Scripts
 
