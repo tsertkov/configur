@@ -16,7 +16,7 @@
   },
   "scripts": {
     "test": "jshint lib/ package.json",
-    "jsdoc": "jsdoc --private --destination jsdoc lib/"
+    "jsdoc": "jsdoc --private --destination artifacts/jsdoc lib/"
   },
   "repository": {
     "type": "git",
