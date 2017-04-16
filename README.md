@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/tsertkov/configur.png?label=ready&title=Ready)](https://waffle.io/tsertkov/configur)
 # configur
 
 [![NPM](https://nodei.co/npm/configur.png)](https://nodei.co/npm/configur/)
