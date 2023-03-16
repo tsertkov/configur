@@ -3,7 +3,6 @@
 [![NPM](https://nodei.co/npm/configur.png)](https://nodei.co/npm/configur/)
 
 [![Build Status](https://travis-ci.org/tsertkov/configur.svg?branch=master)](https://travis-ci.org/tsertkov/configur)
-[![David Status](https://david-dm.org/tsertkov/configur.png)](https://david-dm.org/tsertkov/configur)
 
 > Dynamic configuration powered by dotpath templates.
 
