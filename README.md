@@ -1,3 +1,5 @@
+⛔️ DEPRECATED
+
 # configur
 
 [![NPM](https://nodei.co/npm/configur.png)](https://nodei.co/npm/configur/)
